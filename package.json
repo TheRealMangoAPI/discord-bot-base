@@ -1,0 +1,20 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn tsx src/index.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "tsx": "^4.7.0"
+  }
+}
