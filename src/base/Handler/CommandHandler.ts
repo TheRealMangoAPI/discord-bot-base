@@ -31,7 +31,6 @@ export async function CommandHandler(BasePath: string, client: CustomClient) {
     if (!interaction.isChatInputCommand()) return;
 
     const command = client.commands.get(interaction.commandName);
-    console.log(command);
     if (!command) return;
 
     try {
